@@ -1,0 +1,27 @@
+{
+  "name": "mern-memories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index",
+  "type":"module",
+  "scripts": {
+    "start":"nodemon server/index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajachintya/Memories-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajachintya/Memories-app/issues"
+  },
+  "homepage": "https://github.com/ajachintya/Memories-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
